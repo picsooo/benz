@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appartement témoin F4-a — Résidence Mascula | Benz Promotion</title>
+<meta name="description" content="Visitez l'appartement témoin Type F4-a de la Résidence Mascula (El Achour, Alger) : 112 m², 3 chambres, terrasses, finitions haut standing.">
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* ---- page appartement témoin ---- */
+.t-hero{position:relative;min-height:92vh;min-height:92svh;display:flex;align-items:flex-end;background:var(--navy-ink);color:#fff;overflow:hidden}
+.t-hero .bg{position:absolute;inset:0;background:url(images/int-mascula-salon.jpg) center/cover;animation:kb 18s ease-out forwards}
+@keyframes kb{from{transform:scale(1.1)}to{transform:scale(1)}}
+.t-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,48,.55),rgba(13,18,48,.05) 40%,rgba(13,18,48,.9) 100%)}
+.t-hero .container{position:relative;z-index:2;padding:140px 0 60px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:end}
+.t-hero .eyebrow,.crumbs{text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.crumbs{display:flex;gap:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:26px;flex-wrap:wrap}
+.crumbs a:hover{color:#fff}.crumbs b{color:var(--orange);font-weight:600}
+.t-hero h1{font-size:clamp(50px,7vw,96px);line-height:.95;margin:16px 0 20px}
+.t-hero h1 .script{display:block;font-size:.42em;color:rgba(255,255,255,.9);margin-bottom:-.05em}
+.t-hero p{font-size:18px;color:rgba(255,255,255,.8);max-width:52ch;font-weight:300;margin-bottom:30px}
+.facts-bar{display:grid;grid-template-columns:repeat(4,1fr);background:rgba(255,255,255,.08);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.15);border-radius:20px;overflow:hidden}
+.facts-bar div{padding:22px 22px;border-right:1px solid rgba(255,255,255,.1)}
+.facts-bar div:last-child{border-right:0}
+.facts-bar b{display:block;font-family:var(--serif);font-size:38px;line-height:1;color:var(--orange);font-weight:500}
+.facts-bar span{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.7);display:block;margin-top:6px}
+.t-hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px}
+.model-badge{position:absolute;top:110px;right:40px;z-index:3;display:flex;align-items:center;gap:10px;background:var(--orange);color:#fff;padding:12px 20px;border-radius:999px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;box-shadow:0 20px 40px -15px rgba(242,154,43,.8)}
+.model-badge i{width:8px;height:8px;border-radius:50%;background:#fff;box-shadow:0 0 0 4px rgba(255,255,255,.3)}
+/* intro */
+.t-intro .container{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(40px,7vw,100px);align-items:start}
+.t-intro h2{margin:18px 0 24px}
+.t-intro p{color:var(--muted);font-size:17px;font-weight:300;margin-bottom:16px}
+.hl{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
+.hl div{display:flex;gap:12px;align-items:center;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:14px;font-size:14px;font-weight:500}
+.hl svg{width:20px;height:20px;color:var(--orange-deep);flex:none}
+.sticky-card{position:sticky;top:110px;background:var(--navy);color:#fff;border-radius:var(--r);padding:34px;box-shadow:0 40px 80px -40px rgba(19,26,63,.6)}
+.sticky-card .script{font-size:34px;color:var(--orange);line-height:1}
+.sticky-card h3{font-size:34px;margin:2px 0 20px}
+.sc-row{display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.sc-row span{color:rgba(255,255,255,.6)}.sc-row b{font-weight:600;text-align:right}
+.sticky-card .btn{width:100%;justify-content:center;margin-top:22px}
+.sticky-card .wa-line{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;font-size:13px;color:rgba(255,255,255,.7)}
+/* plan */
+.t-plan{background:var(--cream)}
+.t-plan .container{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,70px);align-items:center}
+.plan-big{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:0 40px 80px -40px rgba(19,26,63,.4);position:relative}
+.plan-big img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:center bottom;background:#1e2757}
+.plan-big .lbl{position:absolute;left:20px;top:20px;background:var(--navy);color:#fff;padding:10px 16px;border-radius:999px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.surf{width:100%;border-collapse:collapse;margin-top:26px;font-size:14.5px;font-variant-numeric:tabular-nums lining-nums}
+.surf th{text-align:left;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:0 0 12px;font-weight:600}
+.surf td{padding:11px 0;border-top:1px solid var(--line)}
+.surf td:last-child,.surf th:last-child{text-align:right}
+.surf tr:hover td{color:var(--orange-deep)}
+.surf tfoot td{border-top:2px solid var(--navy);font-weight:700;font-size:17px;padding-top:14px}
+.surf .num{display:inline-block;width:24px;height:24px;border-radius:50%;background:var(--orange-soft);color:var(--orange-deep);font-size:11px;font-weight:700;text-align:center;line-height:24px;margin-right:10px}
+/* rooms */
+.rooms-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.room{position:relative;border-radius:18px;overflow:hidden;background:var(--navy);color:#fff;grid-column:span 4;aspect-ratio:4/3}
+.room.w{grid-column:span 8;aspect-ratio:auto}
+.room.tall{grid-row:span 2;aspect-ratio:auto}
+.room img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease)}
+.room:hover img{transform:scale(1.06)}
+.room::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(13,18,48,.85))}
+.room .cap{position:absolute;left:22px;right:22px;bottom:20px;z-index:2}
+.room .cap small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--orange);font-weight:700;margin-bottom:4px}
+.room .cap b{font-family:var(--serif);font-size:26px;font-weight:500}
+.room .cap span{display:block;font-size:13px;color:rgba(255,255,255,.75)}
+.note{font-size:12px;color:var(--muted);margin-top:16px}
+/* 360 */
+.tour{background:var(--navy-ink);color:#fff;position:relative;overflow:hidden}
+.tour .container{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,5vw,80px);align-items:center}
+.tour .eyebrow{color:var(--orange)}
+.tour .lead{color:rgba(255,255,255,.65)}
+.tour-frame{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:16/9;background:url(images/int-massily-salon2.jpg) center/cover;box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
+.tour-frame::after{content:"";position:absolute;inset:0;background:rgba(13,18,48,.45)}
+.tour-frame .play{position:absolute;inset:0;z-index:2;display:grid;place-items:center;text-align:center}
+.tour-frame .play i{width:96px;height:96px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 20px 50px rgba(0,0,0,.4);transition:.4s var(--ease)}
+.tour-frame:hover .play i{background:var(--orange);color:#fff;transform:scale(1.08)}
+.tour-frame .play i svg{width:34px;height:34px;margin-left:4px}
+.tour-frame .play span{font-size:12px;letter-spacing:.24em;text-transform:uppercase;font-weight:700}
+.tour-frame .hot{position:absolute;z-index:2;width:18px;height:18px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 6px rgba(242,154,43,.3);animation:pulse360 2.4s infinite}
+@keyframes pulse360{50%{box-shadow:0 0 0 14px rgba(242,154,43,0)}}
+.tour ul{list-style:none;display:grid;gap:12px;margin:26px 0 30px}
+.tour li{display:flex;gap:12px;align-items:center;font-size:15px;color:rgba(255,255,255,.85)}
+.tour li::before{content:"";width:22px;height:1px;background:var(--orange)}
+/* other types */
+.types-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.type-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:.5s var(--ease);display:block}
+.type-card:hover{transform:translateY(-6px);box-shadow:0 40px 60px -40px rgba(19,26,63,.4)}
+.type-card img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:center bottom;background:#1e2757}
+.type-card .b{padding:24px 26px 28px}
+.type-card .b small{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--orange-deep);font-weight:700}
+.type-card h3{font-size:30px;margin:6px 0 10px}
+.type-card p{font-size:14px;color:var(--muted)}
+.type-card .r{display:flex;justify-content:space-between;align-items:center;margin-top:18px;font-size:13px;font-weight:600}
+.type-card .r span{color:var(--muted);font-weight:400}
+.type-card.on{border-color:var(--orange);position:relative}
+.type-card.on::before{content:"Vous êtes ici";position:absolute;top:16px;left:16px;background:var(--orange);color:#fff;font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;padding:7px 12px;border-radius:999px;z-index:2}
+/* CTA band */
+.cta-band{background:var(--orange);color:#fff;padding:70px 0}
+.cta-band .container{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+.cta-band h2{color:#fff;font-size:clamp(34px,4vw,54px)}
+.cta-band h2 .script{display:block;font-size:.55em;color:rgba(255,255,255,.9)}
+.cta-band .btn-dark{background:var(--navy-ink)}
+.cta-band .btn-ghost{border-color:rgba(255,255,255,.6)}
+@media (max-width:1100px){.rooms-grid{grid-template-columns:repeat(2,1fr)}.room,.room.w{grid-column:span 1}.room.tall{grid-row:span 1;aspect-ratio:4/3}.room.w{aspect-ratio:4/3}}
+@media (max-width:820px){
+  .t-hero .container{grid-template-columns:1fr;padding-top:130px}
+  .facts-bar{grid-template-columns:1fr 1fr}.facts-bar div:nth-child(2){border-right:0}.facts-bar div{border-bottom:1px solid rgba(255,255,255,.1)}
+  .model-badge{display:none}
+  .t-intro .container,.t-plan .container,.tour .container{grid-template-columns:1fr}
+  .sticky-card{position:static}
+  .hl{grid-template-columns:1fr}
+  .rooms-grid{grid-template-columns:1fr}
+  .types-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="brand"><img src="images/logo.png" alt="Benz Promotion"></a>
+    <nav class="nav">
+      <a href="index.html#promoteur">Le promoteur</a>
+      <a href="index.html#residences">Nos résidences</a>
+      <a href="index.html#prestations">Prestations</a>
+      <a href="appartement-temoin.html" class="nav-hot">Appartement témoin</a>
+      <a href="index.html#galerie">Galerie</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang"><span class="on">FR</span><span>EN</span><span>AR</span></div>
+      <a href="#rdv" class="btn btn-primary">Réserver une visite <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Accueil</a>
+  <a href="index.html#residences">Nos résidences</a>
+  <a href="index.html#prestations">Prestations</a>
+  <a href="appartement-temoin.html" style="color:var(--orange)">Appartement témoin →</a>
+  <a href="index.html#contact">Contact</a>
+  <div class="mm-foot">+213 661 666 647 · contact@benzpromotion.com</div>
+</div>
+
+<!-- HERO -->
+<section class="t-hero" style="padding:0">
+  <div class="bg"></div>
+  <div class="model-badge"><i></i>Appartement témoin</div>
+  <div class="container">
+    <div>
+      <div class="crumbs"><a href="index.html">Accueil</a><span>/</span><a href="index.html#residences">Résidence Mascula</a><span>/</span><b>Appartement témoin</b></div>
+      <span class="eyebrow" style="color:var(--orange)">El Achour · Alger · Façade principale</span>
+      <h1><span class="script">Appartement témoin</span>Type F4-a</h1>
+      <p>112 m² en façade principale, baignés de lumière naturelle. Trois chambres, deux salles de bain, un séjour ouvert sur la terrasse : la disposition idéale pour une vie de famille confortable.</p>
+      <div class="actions"><a href="#rdv" class="btn btn-primary">Réserver une visite <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#plan" class="btn btn-ghost">Voir le plan</a></div>
+    </div>
+    <div class="facts-bar">
+      <div><b>112</b><span>m² habitables</span></div>
+      <div><b>3</b><span>Chambres</span></div>
+      <div><b>2</b><span>Salles de bain</span></div>
+      <div><b>10</b><span>m² de terrasses</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="t-intro"><div class="container">
+  <div class="reveal">
+    <span class="eyebrow">L'appartement</span>
+    <h2>Un F4 <em>lumineux</em>, pensé pour la vie de famille.</h2>
+    <p>Le Type F4-a de la Résidence Mascula offre 112,12 m² situés en façade principale, offrant un éclairage naturel optimal. Cette disposition crée une atmosphère chaleureuse et confortable, idéale pour une qualité de vie exceptionnelle.</p>
+    <p>Un séjour de plus de 21 m² prolongé par une terrasse, une cuisine indépendante de 12 m², trois chambres dont une suite avec salle de bain privative, et un dégagement généreux qui sépare l'espace jour de l'espace nuit.</p>
+    <div class="hl">
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18"/></svg>Séjour + terrasse de 31 m² cumulés</div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg>Suite parentale avec SDB privative</div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Espaces jour / nuit séparés</div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h16v10H4zM4 10l2-6h12l2 6"/></svg>Cuisine équipée indépendante</div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h18M5 17l2-6h10l2 6"/></svg>Place de parking &amp; box sécurisé</div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7 9 18l-5-5"/></svg>Finitions haut standing incluses</div>
+    </div>
+  </div>
+  <aside class="sticky-card reveal">
+    <span class="script">Résidence</span>
+    <h3>Mascula</h3>
+    <div class="sc-row"><span>Typologie</span><b>F4-a · 3 chambres</b></div>
+    <div class="sc-row"><span>Surface totale</span><b>112,12 m²</b></div>
+    <div class="sc-row"><span>Exposition</span><b>Façade principale</b></div>
+    <div class="sc-row"><span>Unités de ce type</span><b>10 appartements</b></div>
+    <div class="sc-row"><span>Localisation</span><b>El Achour, Alger</b></div>
+    <div class="sc-row"><span>Statut</span><b style="color:#5ce08a">En commercialisation</b></div>
+    <a href="#rdv" class="btn btn-primary">Réserver une visite <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="wa-line">ou par WhatsApp au <b>+213 661 666 647</b></div>
+  </aside>
+</div></section>
+
+<!-- PLAN -->
+<section class="t-plan" id="plan"><div class="container">
+  <div class="plan-big reveal"><span class="lbl">Plan 3D · Type F4-a</span><img src="images/plan-f4.jpg" alt="Plan 3D appartement F4-a"></div>
+  <div class="reveal">
+    <span class="eyebrow">Le plan</span>
+    <h2>Chaque m² <em>compte.</em></h2>
+    <table class="surf">
+      <thead><tr><th>Espace</th><th>Surface</th></tr></thead>
+      <tbody>
+        <tr><td><span class="num">1</span>Séjour</td><td>21,24 m²</td></tr>
+        <tr><td><span class="num">2</span>Cuisine</td><td>12,11 m²</td></tr>
+        <tr><td><span class="num">3</span>Chambre 01</td><td>13,76 m²</td></tr>
+        <tr><td><span class="num">4</span>Chambre 02</td><td>12,93 m²</td></tr>
+        <tr><td><span class="num">5</span>Chambre 03</td><td>12,75 m²</td></tr>
+        <tr><td><span class="num">6</span>Salle de bain 1</td><td>4,90 m²</td></tr>
+        <tr><td><span class="num">7</span>Salle de bain 2</td><td>3,77 m²</td></tr>
+        <tr><td><span class="num">8</span>W.C</td><td>2,26 m²</td></tr>
+        <tr><td><span class="num">9</span>Dégagement</td><td>12,42 m²</td></tr>
+        <tr><td><span class="num">10</span>Terrasses</td><td>9,93 m²</td></tr>
+      </tbody>
+      <tfoot><tr><td>Surface totale</td><td>112,12 m²</td></tr></tfoot>
+    </table>
+    <a href="#rdv" class="btn btn-dark" style="margin-top:26px">Télécharger la fiche PDF <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v12m0 0 5-5m-5 5-5-5M4 20h16"/></svg></a>
+  </div>
+</div></section>
+
+<!-- ROOMS -->
+<section class="t-rooms"><div class="container">
+  <div class="sec-head reveal">
+    <div><span class="eyebrow">Pièce par pièce</span><h2>Visitez <em>chaque espace.</em></h2></div>
+    <p class="lead">Les ambiances et finitions proposées dans nos appartements témoins.</p>
+  </div>
+  <div class="rooms-grid reveal">
+    <div class="room w"><img src="images/int-mascula-salon.jpg" alt=""><div class="cap"><small>21,24 m²</small><b>Séjour</b><span>Un salon spacieux et chaleureux, ouvert sur la terrasse</span></div></div>
+    <div class="room tall"><img src="images/int-massily-sdb.jpg" alt=""><div class="cap"><small>4,90 m²</small><b>Salle de bain</b><span>Douche à l'italienne, aération naturelle</span></div></div>
+    <div class="room"><img src="images/int-massily-cuisine2.jpg" alt=""><div class="cap"><small>12,11 m²</small><b>Cuisine</b><span>Équipée, finitions soignées</span></div></div>
+    <div class="room"><img src="images/int-massily-chambre1.jpg" alt=""><div class="cap"><small>13,76 m²</small><b>Chambre 01</b><span>Suite parentale</span></div></div>
+    <div class="room"><img src="images/int-massily-chambre2.jpg" alt=""><div class="cap"><small>12,93 m²</small><b>Chambre 02</b><span>Rangements intégrés</span></div></div>
+    <div class="room"><img src="images/int-massily-salon1.jpg" alt=""><div class="cap"><small>Espace jour</small><b>Coin repas</b><span>Une grande pièce lumineuse</span></div></div>
+    <div class="room"><img src="images/int-massily-box.jpg" alt=""><div class="cap"><small>Inclus</small><b>Box &amp; parking</b><span>Fermé et sécurisé</span></div></div>
+  </div>
+  <p class="note">Visuels 3D d'ambiance non contractuels — les finitions définitives sont présentées lors de la visite de l'appartement témoin.</p>
+</div></section>
+
+<!-- 360 -->
+<section class="tour"><div class="container">
+  <div class="reveal">
+    <span class="eyebrow">Visite virtuelle</span>
+    <h2>Explorez l'appartement <em>à 360°.</em></h2>
+    <p class="lead" style="margin-top:16px">Depuis votre salon ou depuis l'étranger, parcourez l'appartement témoin comme si vous y étiez.</p>
+    <ul><li>Navigation pièce par pièce</li><li>Points d'intérêt sur les finitions</li><li>Compatible mobile et casque VR</li></ul>
+    <a href="#rdv" class="btn btn-primary">Préférer une visite sur place <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+  <div class="tour-frame reveal">
+    <span class="hot" style="left:22%;top:58%"></span><span class="hot" style="left:64%;top:40%"></span><span class="hot" style="left:80%;top:70%"></span>
+    <div class="play"><div><i><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l14-8z"/></svg></i><span>Lancer la visite 360°</span></div></div>
+  </div>
+</div></section>
+
+<!-- OTHER TYPES -->
+<section class="t-types"><div class="container">
+  <div class="sec-head reveal">
+    <div><span class="eyebrow">Autres typologies · Mascula</span><h2>Du F2 au F4, <em>trouvez le vôtre.</em></h2></div>
+    <p class="lead">Chaque typologie dispose de sa page appartement témoin.</p>
+  </div>
+  <div class="types-grid reveal">
+    <a href="appartement-temoin.html" class="type-card"><img src="images/plan-f2.jpg" alt=""><div class="b"><small>Type F2</small><h3>54,28 m²</h3><p>Salon, cuisine, chambre avec balcon communicant, grande salle de bains. Du 1er étage au premier attique.</p><div class="r">Voir l'appartement témoin →<span>12 unités</span></div></div></a>
+    <a href="appartement-temoin.html" class="type-card"><img src="images/plan-f3.jpg" alt=""><div class="b"><small>Type F3-a</small><h3>96,17 m²</h3><p>Deux chambres, cuisine ouverte ou fermée sur le séjour, deux terrasses : salon et chambres.</p><div class="r">Voir l'appartement témoin →<span>14 unités</span></div></div></a>
+    <a href="appartement-temoin.html" class="type-card on"><img src="images/plan-f4.jpg" alt=""><div class="b"><small>Type F4-a</small><h3>112,12 m²</h3><p>Trois chambres, deux salles de bain, séjour ouvert sur terrasse, façade principale.</p><div class="r">Page en cours →<span>10 unités</span></div></div></a>
+  </div>
+</div></section>
+
+<!-- CTA -->
+<section class="cta-band" id="rdv"><div class="container">
+  <h2><span class="script">Envie de le voir en vrai ?</span>Réservez votre visite de l'appartement témoin.</h2>
+  <div style="display:flex;gap:12px;flex-wrap:wrap"><a href="https://wa.me/213661666647" target="_blank" class="btn btn-dark">WhatsApp · +213 661 666 647 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="index.html#contact" class="btn btn-ghost">Formulaire de contact</a></div>
+</div></section>
+
+<footer class="footer"><div class="container">
+  <div class="top">
+    <div><a href="index.html" class="brand"><img src="images/logo.png" alt="Benz Promotion"></a><p>Réalisation d'appartements, duplex et triplex de haut standing à Alger. Là où le calme rencontre le confort.</p></div>
+    <div><h4>Résidences</h4><ul><li><a href="index.html#residences">Cirta — Dely Ibrahim</a></li><li><a href="index.html#residences">Mascula — El Achour</a></li><li><a href="index.html#residences">Numidia — Chéraga</a></li><li><a href="index.html#residences">Massily — Chéraga</a></li></ul></div>
+    <div><h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="index.html#prestations">Prestations</a></li><li><a href="appartement-temoin.html">Appartement témoin</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="tel:+213661666647">+213 661 666 647</a></li><li><a href="tel:+213661666627">+213 661 666 627</a></li><li><a href="mailto:contact@benzpromotion.com">contact@benzpromotion.com</a></li><li>Bois des Cars, Dely Ibrahim, Alger</li></ul></div>
+  </div>
+  <div class="bottom"><span>© 2026 Benz Promotion Immobilière. Tous droits réservés.</span><span><a href="#">Mentions légales</a> · Conçu par <a href="https://webminds.dz" target="_blank">Webminds</a></span></div>
+</div></footer>
+
+<a class="wa" href="https://wa.me/213661666647" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.4 2.4 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.5-.3z"/></svg><span>Discuter sur WhatsApp</span></a>
+
+<script>
+const header=document.getElementById('header');
+addEventListener('scroll',()=>header.classList.toggle('scrolled',scrollY>60),{passive:true});
+const burger=document.getElementById('burger'),mm=document.getElementById('mobileMenu');
+burger.onclick=()=>mm.classList.toggle('open');
+mm.querySelectorAll('a').forEach(a=>a.onclick=()=>mm.classList.remove('open'));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
