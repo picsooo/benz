@@ -13,8 +13,16 @@
   <span class="dh-tag">Maquette</span>
   <span>Cliquez sur une <b>résidence</b> ou sur <b>« Appartement témoin »</b> pour découvrir le modèle de page appartement témoin.</span>
   <a href="appartement-temoin.html" class="dh-btn">Voir l'exemple →</a>
-  <button class="dh-x" onclick="document.getElementById('demoHint').remove()" aria-label="Fermer">×</button>
+  <button class="dh-x" type="button" id="demoHintClose" aria-label="Fermer">×</button>
 </div>
+<script>
+(function(){var h=document.getElementById('demoHint'),x=document.getElementById('demoHintClose');
+function close(e){if(e)e.preventDefault();try{sessionStorage.setItem('benzHint','1')}catch(err){}if(h)h.remove()}
+try{if(sessionStorage.getItem('benzHint'))close()}catch(err){}
+if(x){x.addEventListener('click',close);x.addEventListener('touchend',close,{passive:false})}
+setTimeout(function(){if(h&&h.parentNode&&matchMedia('(max-width:820px)').matches)h.classList.add('hide')},12000);
+})();
+</script>
 
 <!-- HEADER -->
 <header class="header" id="header">
@@ -333,7 +341,7 @@
 <script>
 // Header
 const header=document.getElementById('header');
-addEventListener('scroll',()=>{header.classList.toggle('scrolled',scrollY>60);const h=document.getElementById('demoHint');if(h)h.classList.toggle('hide',scrollY>400)},{passive:true});
+addEventListener('scroll',()=>{header.classList.toggle('scrolled',scrollY>60);const h=document.getElementById('demoHint');if(h)h.classList.toggle('hide',scrollY>(innerWidth<821?150:400))},{passive:true});
 // Mobile menu
 const burger=document.getElementById('burger'),mm=document.getElementById('mobileMenu');
 burger.onclick=()=>mm.classList.toggle('open');
